@@ -65,6 +65,6 @@ numsQueue.enqueue(3)
 numsQueue.enqueue(3)
 print(numsQueue.dequeue())
 
-for num in nums {
+for num in numsQueue {
     print(num)
 }
