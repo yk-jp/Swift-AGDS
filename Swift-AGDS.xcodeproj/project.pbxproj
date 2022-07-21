@@ -13,6 +13,9 @@
 		F24B4E7C287C9D9D00F88C3C /* Recursion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24B4E7B287C9D9D00F88C3C /* Recursion.swift */; };
 		F24B4E7F287D1EDF00F88C3C /* String+DPStringTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24B4E7E287D1EDF00F88C3C /* String+DPStringTool.swift */; };
 		F2523D2E2885BDDE0042B63D /* Searching.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2523D2D2885BDDE0042B63D /* Searching.swift */; };
+		F260F69E2888BF7200D286FB /* Bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = F260F69D2888BF7200D286FB /* Bag.swift */; };
+		F260F6A02888BFA900D286FB /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F260F69F2888BFA900D286FB /* Queue.swift */; };
+		F260F6A22888BFD300D286FB /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F260F6A12888BFD300D286FB /* Stack.swift */; };
 		F28EF95C2886712A005E6965 /* Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28EF95B2886712A005E6965 /* Sorting.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +40,9 @@
 		F24B4E7E287D1EDF00F88C3C /* String+DPStringTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+DPStringTool.swift"; path = "../../../String+DPStringTool.swift"; sourceTree = "<group>"; };
 		F24B4E80287D386B00F88C3C /* story.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = story.txt; sourceTree = "<group>"; };
 		F2523D2D2885BDDE0042B63D /* Searching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Searching.swift; sourceTree = "<group>"; };
+		F260F69D2888BF7200D286FB /* Bag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bag.swift; sourceTree = "<group>"; };
+		F260F69F2888BFA900D286FB /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		F260F6A12888BFD300D286FB /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		F28EF95B2886712A005E6965 /* Sorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sorting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,6 +76,7 @@
 		F24B4E72287C9D6700F88C3C /* Swift-AGDS */ = {
 			isa = PBXGroup;
 			children = (
+				F260F69C2888BF5C00D286FB /* DataStructures1 */,
 				F2523D2C2885BDC70042B63D /* SearchingSorting */,
 				F24B4E7D287D1EB800F88C3C /* Utils */,
 				F24B4E7A287C9D8900F88C3C /* Recursion */,
@@ -104,6 +111,16 @@
 				F28EF95B2886712A005E6965 /* Sorting.swift */,
 			);
 			path = SearchingSorting;
+			sourceTree = "<group>";
+		};
+		F260F69C2888BF5C00D286FB /* DataStructures1 */ = {
+			isa = PBXGroup;
+			children = (
+				F260F69D2888BF7200D286FB /* Bag.swift */,
+				F260F69F2888BFA900D286FB /* Queue.swift */,
+				F260F6A12888BFD300D286FB /* Stack.swift */,
+			);
+			path = DataStructures1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,6 +187,9 @@
 				F24B4E7C287C9D9D00F88C3C /* Recursion.swift in Sources */,
 				F28EF95C2886712A005E6965 /* Sorting.swift in Sources */,
 				F2071F45287F420900CBB1D2 /* BackTracking.swift in Sources */,
+				F260F6A22888BFD300D286FB /* Stack.swift in Sources */,
+				F260F69E2888BF7200D286FB /* Bag.swift in Sources */,
+				F260F6A02888BFA900D286FB /* Queue.swift in Sources */,
 				F24B4E74287C9D6700F88C3C /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
