@@ -31,6 +31,40 @@ import Foundation
 
 // quick sort
 
-var a = [12,4,5,6,7,3,1,15]
-quickSort(&a, 0, a.count-1)
-print(a)
+//var a = [12,4,5,6,7,3,1,15]
+//quickSort(&a, 0, a.count-1)
+//print(a)
+
+var nums = Bag<Int>()
+nums.add(1)
+nums.add(2)
+nums.add(3)
+
+for num in nums {
+    print(num)
+}
+
+var numsStack = Stack<Int>()
+numsStack.push(1)
+numsStack.push(2)
+numsStack.push(3)
+print(numsStack.pop())
+print(numsStack.peek())
+print(numsStack.pop())
+print(numsStack.pop())
+
+for num in numsStack {
+    print(num)
+}
+
+var numsQueue = Queue<Int>()
+numsQueue.enqueue(1)
+numsQueue.enqueue(2)
+numsQueue.enqueue(3)
+numsQueue.enqueue(3)
+numsQueue.enqueue(3)
+print(numsQueue.dequeue())
+
+for num in nums {
+    print(num)
+}
