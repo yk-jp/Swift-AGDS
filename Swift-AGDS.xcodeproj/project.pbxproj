@@ -17,6 +17,7 @@
 		F260F6A22888BFD300D286FB /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F260F6A12888BFD300D286FB /* Stack.swift */; };
 		F26F68F62890DBEB0038EB7B /* BFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26F68F52890DBEB0038EB7B /* BFS.swift */; };
 		F26F68F82890DE760038EB7B /* Cyclic Permutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26F68F72890DE760038EB7B /* Cyclic Permutation.swift */; };
+		F26F68FA2890F6860038EB7B /* RepeatingSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26F68F92890F6860038EB7B /* RepeatingSequence.swift */; };
 		F28EF95C2886712A005E6965 /* Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28EF95B2886712A005E6965 /* Sorting.swift */; };
 		F297551028904C2B001D510A /* AdjacencyMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = F297550F28904C2B001D510A /* AdjacencyMatrix.swift */; };
 		F29755122890530B001D510A /* DFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29755112890530B001D510A /* DFS.swift */; };
@@ -48,6 +49,7 @@
 		F260F6A12888BFD300D286FB /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		F26F68F52890DBEB0038EB7B /* BFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFS.swift; sourceTree = "<group>"; };
 		F26F68F72890DE760038EB7B /* Cyclic Permutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cyclic Permutation.swift"; sourceTree = "<group>"; };
+		F26F68F92890F6860038EB7B /* RepeatingSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatingSequence.swift; sourceTree = "<group>"; };
 		F28EF95B2886712A005E6965 /* Sorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sorting.swift; sourceTree = "<group>"; };
 		F297550F28904C2B001D510A /* AdjacencyMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjacencyMatrix.swift; sourceTree = "<group>"; };
 		F29755112890530B001D510A /* DFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DFS.swift; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 				F29755112890530B001D510A /* DFS.swift */,
 				F26F68F52890DBEB0038EB7B /* BFS.swift */,
 				F26F68F72890DE760038EB7B /* Cyclic Permutation.swift */,
+				F26F68F92890F6860038EB7B /* RepeatingSequence.swift */,
 			);
 			path = Graph;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 				F260F69E2888BF7200D286FB /* Bag.swift in Sources */,
 				F26F68F82890DE760038EB7B /* Cyclic Permutation.swift in Sources */,
 				F29755122890530B001D510A /* DFS.swift in Sources */,
+				F26F68FA2890F6860038EB7B /* RepeatingSequence.swift in Sources */,
 				F260F6A02888BFA900D286FB /* Queue.swift in Sources */,
 				F24B4E74287C9D6700F88C3C /* main.swift in Sources */,
 			);

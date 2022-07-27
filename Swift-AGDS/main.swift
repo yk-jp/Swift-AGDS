@@ -19,4 +19,12 @@ import Foundation
 //
 //
 
-cyclicPermutation()
+//cyclicPermutation()
+
+//the sequence D is {57, 74, 65, 61, 37, 58, 89, 145, …, 16, 37, …  }.
+//Sample Input 1
+//57 2
+//Sample Output 1
+//4
+
+repeatingSequence()
