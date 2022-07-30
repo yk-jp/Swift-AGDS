@@ -27,4 +27,6 @@ import Foundation
 //Sample Output 1
 //4
 
-repeatingSequence()
+//repeatingSequence()
+
+whosMyParent()

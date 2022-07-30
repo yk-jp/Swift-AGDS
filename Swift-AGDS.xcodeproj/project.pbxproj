@@ -22,6 +22,7 @@
 		F297551028904C2B001D510A /* AdjacencyMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = F297550F28904C2B001D510A /* AdjacencyMatrix.swift */; };
 		F29755122890530B001D510A /* DFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29755112890530B001D510A /* DFS.swift */; };
 		F2975514289055B5001D510A /* String+DPStringTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2975513289055B5001D510A /* String+DPStringTool.swift */; };
+		F2976F212895CA85000FAE7A /* WhosMyParent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2976F202895CA85000FAE7A /* WhosMyParent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -54,6 +55,7 @@
 		F297550F28904C2B001D510A /* AdjacencyMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjacencyMatrix.swift; sourceTree = "<group>"; };
 		F29755112890530B001D510A /* DFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DFS.swift; sourceTree = "<group>"; };
 		F2975513289055B5001D510A /* String+DPStringTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+DPStringTool.swift"; sourceTree = "<group>"; };
+		F2976F202895CA85000FAE7A /* WhosMyParent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhosMyParent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		F24B4E72287C9D6700F88C3C /* Swift-AGDS */ = {
 			isa = PBXGroup;
 			children = (
+				F2976F1F2895CA6A000FAE7A /* Tree */,
 				F297550E28904C0A001D510A /* Graph */,
 				F260F69C2888BF5C00D286FB /* DataStructures1 */,
 				F2523D2C2885BDC70042B63D /* SearchingSorting */,
@@ -144,6 +147,14 @@
 				F26F68F92890F6860038EB7B /* RepeatingSequence.swift */,
 			);
 			path = Graph;
+			sourceTree = "<group>";
+		};
+		F2976F1F2895CA6A000FAE7A /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				F2976F202895CA85000FAE7A /* WhosMyParent.swift */,
+			);
+			path = Tree;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,6 +229,7 @@
 				F29755122890530B001D510A /* DFS.swift in Sources */,
 				F26F68FA2890F6860038EB7B /* RepeatingSequence.swift in Sources */,
 				F260F6A02888BFA900D286FB /* Queue.swift in Sources */,
+				F2976F212895CA85000FAE7A /* WhosMyParent.swift in Sources */,
 				F24B4E74287C9D6700F88C3C /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
