@@ -58,7 +58,7 @@ func diameter() {
     var result = 0
     adjacencyListWeightedRepresentation()
 
-    for idx in 2..<adjList.count {
+    for idx in 1..<adjList.count {
         let totalDis = calcDistance(idx, 0,visited)
         result = totalDis > result ? totalDis : result
     }
