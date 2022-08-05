@@ -39,4 +39,6 @@ import Foundation
 //4 2 4 3 3 5 6 -1
 //5 4 6 -1
 
-solution()
+//LCASolution()
+sushiSolution()
+

@@ -6,7 +6,7 @@ import Foundation
 //class Graph {}
 // ...
 
-func solution() {
+func LCASolution() {
     // your main logic (input processing, algorithm, etc.)
     var tree = LCAAdjacencyList()
     print()

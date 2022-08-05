@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F2071F42287F2F7300CBB1D2 /* ExaustiveSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2071F41287F2F7300CBB1D2 /* ExaustiveSearch.swift */; };
 		F2071F45287F420900CBB1D2 /* BackTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2071F44287F420900CBB1D2 /* BackTracking.swift */; };
+		F22C953A289B182200E4F32C /* LCA.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22C9539289B182200E4F32C /* LCA.swift */; };
 		F24B4E74287C9D6700F88C3C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24B4E73287C9D6700F88C3C /* main.swift */; };
 		F24B4E7C287C9D9D00F88C3C /* Recursion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24B4E7B287C9D9D00F88C3C /* Recursion.swift */; };
 		F2523D2E2885BDDE0042B63D /* Searching.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2523D2D2885BDDE0042B63D /* Searching.swift */; };
@@ -24,6 +25,7 @@
 		F2975514289055B5001D510A /* String+DPStringTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2975513289055B5001D510A /* String+DPStringTool.swift */; };
 		F2976F212895CA85000FAE7A /* WhosMyParent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2976F202895CA85000FAE7A /* WhosMyParent.swift */; };
 		F2976F4C2895F0C3000FAE7A /* Diameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2976F4B2895F0C3000FAE7A /* Diameter.swift */; };
+		F2B36CB2289C344A006A403D /* SushiReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B36CB1289C344A006A403D /* SushiReview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +43,7 @@
 /* Begin PBXFileReference section */
 		F2071F41287F2F7300CBB1D2 /* ExaustiveSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExaustiveSearch.swift; sourceTree = "<group>"; };
 		F2071F44287F420900CBB1D2 /* BackTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackTracking.swift; sourceTree = "<group>"; };
+		F22C9539289B182200E4F32C /* LCA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCA.swift; sourceTree = "<group>"; };
 		F24B4E70287C9D6700F88C3C /* Swift-AGDS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Swift-AGDS"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F24B4E73287C9D6700F88C3C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		F24B4E7B287C9D9D00F88C3C /* Recursion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recursion.swift; sourceTree = "<group>"; };
@@ -61,6 +64,7 @@
 		F2976F312895DFFD000FAE7A /* a.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = a.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2976F3C2895E01D000FAE7A /* WhosParents.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhosParents.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2976F4B2895F0C3000FAE7A /* Diameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diameter.swift; sourceTree = "<group>"; };
+		F2B36CB1289C344A006A403D /* SushiReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiReview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,8 +185,10 @@
 		F2976F1F2895CA6A000FAE7A /* Tree */ = {
 			isa = PBXGroup;
 			children = (
+				F22C9539289B182200E4F32C /* LCA.swift */,
 				F2976F202895CA85000FAE7A /* WhosMyParent.swift */,
 				F2976F4B2895F0C3000FAE7A /* Diameter.swift */,
+				F2B36CB1289C344A006A403D /* SushiReview.swift */,
 			);
 			path = Tree;
 			sourceTree = "<group>";
@@ -336,12 +342,14 @@
 				F2071F42287F2F7300CBB1D2 /* ExaustiveSearch.swift in Sources */,
 				F24B4E7C287C9D9D00F88C3C /* Recursion.swift in Sources */,
 				F2975514289055B5001D510A /* String+DPStringTool.swift in Sources */,
+				F22C953A289B182200E4F32C /* LCA.swift in Sources */,
 				F297551028904C2B001D510A /* AdjacencyMatrix.swift in Sources */,
 				F28EF95C2886712A005E6965 /* Sorting.swift in Sources */,
 				F2071F45287F420900CBB1D2 /* BackTracking.swift in Sources */,
 				F26F68F62890DBEB0038EB7B /* BFS.swift in Sources */,
 				F260F6A22888BFD300D286FB /* Stack.swift in Sources */,
 				F260F69E2888BF7200D286FB /* Bag.swift in Sources */,
+				F2B36CB2289C344A006A403D /* SushiReview.swift in Sources */,
 				F26F68F82890DE760038EB7B /* Cyclic Permutation.swift in Sources */,
 				F29755122890530B001D510A /* DFS.swift in Sources */,
 				F26F68FA2890F6860038EB7B /* RepeatingSequence.swift in Sources */,
