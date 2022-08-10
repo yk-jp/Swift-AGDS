@@ -13,8 +13,6 @@ func tomatoFarm() {
         let row: Int
         let col: Int
     }
-    let dx = [0, 0, 1, -1]
-    let dy = [1, -1, 0, 0]
     
     var q = Queue<Square>()
     
@@ -35,7 +33,7 @@ func tomatoFarm() {
     }
     
     func bfs(_ days :inout Int) {
-        var oneQ = Queue<Square>()
+        let oneQ = Queue<Square>()
         while !q.isEmpty() {
             let currTomato = q.dequeue()
             if currTomato!.row < 0 || currTomato!.row >= size[1] || currTomato!.col < 0 || currTomato!.col >= size[0] {
