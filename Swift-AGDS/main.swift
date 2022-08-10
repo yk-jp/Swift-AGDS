@@ -40,5 +40,6 @@ import Foundation
 //5 4 6 -1
 
 //LCASolution()
-sushiSolution()
+//sushiSolution()
+tomatoFarm()
 

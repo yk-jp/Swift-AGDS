@@ -52,7 +52,7 @@ func sushiSolution() -> Int {
         var visited:[Bool] = [Bool](repeating: false, count: n)
         let totalD = trackPath(sushiP, adjList, &visited, 0, 0)
         if min == 0 { min = totalD }
-//        print("\(sushiP) ", totalD)
+        print("\(sushiP) ", totalD)
         min = totalD < min ? totalD : min
     }
     
