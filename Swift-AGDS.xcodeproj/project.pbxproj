@@ -27,7 +27,10 @@
 		F2976F4C2895F0C3000FAE7A /* Diameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2976F4B2895F0C3000FAE7A /* Diameter.swift */; };
 		F2B36CB2289C344A006A403D /* SushiReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B36CB1289C344A006A403D /* SushiReview.swift */; };
 		F2BFEC1C28A1802A00300AB2 /* Maze.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BFEC1B28A1802900300AB2 /* Maze.swift */; };
+		F2D41C5928A4C43300C288C0 /* CourseSchedule+leetcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D41C5828A4C43300C288C0 /* CourseSchedule+leetcode.swift */; };
+		F2D41C5B28A4C67E00C288C0 /* CourseSchedule2+leetcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D41C5A28A4C67E00C288C0 /* CourseSchedule2+leetcode.swift */; };
 		F2F38B3A28A30E4C00572B5F /* TomatoFarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F38B3928A30E4C00572B5F /* TomatoFarm.swift */; };
+		F2F38B3C28A3750A00572B5F /* Bridges.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F38B3B28A3750900572B5F /* Bridges.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -70,7 +73,10 @@
 		F2BFEC1828A1774700300AB2 /* Town.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Town.swift; sourceTree = "<group>"; };
 		F2BFEC1B28A1802900300AB2 /* Maze.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Maze.swift; path = ../../Maze.swift; sourceTree = "<group>"; };
 		F2BFEC1D28A1802B00300AB2 /* Maze.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maze.swift; sourceTree = "<group>"; };
+		F2D41C5828A4C43300C288C0 /* CourseSchedule+leetcode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CourseSchedule+leetcode.swift"; sourceTree = "<group>"; };
+		F2D41C5A28A4C67E00C288C0 /* CourseSchedule2+leetcode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CourseSchedule2+leetcode.swift"; sourceTree = "<group>"; };
 		F2F38B3928A30E4C00572B5F /* TomatoFarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TomatoFarm.swift; sourceTree = "<group>"; };
+		F2F38B3B28A3750900572B5F /* Bridges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bridges.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +133,7 @@
 		F24B4E72287C9D6700F88C3C /* Swift-AGDS */ = {
 			isa = PBXGroup;
 			children = (
+				F2D41C5728A4C40600C288C0 /* TopologicalSort */,
 				F2BFEC1728A1773E00300AB2 /* FloodFill */,
 				F2976F1F2895CA6A000FAE7A /* Tree */,
 				F297550E28904C0A001D510A /* Graph */,
@@ -207,8 +214,18 @@
 				F2BFEC1D28A1802B00300AB2 /* Maze.swift */,
 				F2F38B3928A30E4C00572B5F /* TomatoFarm.swift */,
 				F2BFEC1828A1774700300AB2 /* Town.swift */,
+				F2F38B3B28A3750900572B5F /* Bridges.swift */,
 			);
 			path = FloodFill;
+			sourceTree = "<group>";
+		};
+		F2D41C5728A4C40600C288C0 /* TopologicalSort */ = {
+			isa = PBXGroup;
+			children = (
+				F2D41C5828A4C43300C288C0 /* CourseSchedule+leetcode.swift */,
+				F2D41C5A28A4C67E00C288C0 /* CourseSchedule2+leetcode.swift */,
+			);
+			path = TopologicalSort;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -365,6 +382,7 @@
 				F28EF95C2886712A005E6965 /* Sorting.swift in Sources */,
 				F2F38B3A28A30E4C00572B5F /* TomatoFarm.swift in Sources */,
 				F2071F45287F420900CBB1D2 /* BackTracking.swift in Sources */,
+				F2D41C5B28A4C67E00C288C0 /* CourseSchedule2+leetcode.swift in Sources */,
 				F26F68F62890DBEB0038EB7B /* BFS.swift in Sources */,
 				F260F6A22888BFD300D286FB /* Stack.swift in Sources */,
 				F260F69E2888BF7200D286FB /* Bag.swift in Sources */,
@@ -373,7 +391,9 @@
 				F29755122890530B001D510A /* DFS.swift in Sources */,
 				F2BFEC1C28A1802A00300AB2 /* Maze.swift in Sources */,
 				F26F68FA2890F6860038EB7B /* RepeatingSequence.swift in Sources */,
+				F2D41C5928A4C43300C288C0 /* CourseSchedule+leetcode.swift in Sources */,
 				F2976F4C2895F0C3000FAE7A /* Diameter.swift in Sources */,
+				F2F38B3C28A3750A00572B5F /* Bridges.swift in Sources */,
 				F260F6A02888BFA900D286FB /* Queue.swift in Sources */,
 				F2976F212895CA85000FAE7A /* WhosMyParent.swift in Sources */,
 				F24B4E74287C9D6700F88C3C /* main.swift in Sources */,

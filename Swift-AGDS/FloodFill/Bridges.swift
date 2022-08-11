@@ -1,14 +1,21 @@
 //
-//  Town.swift
-//  SwiftAGDS
+//  Bridges.swift
+//  Swift-AGDS
 //
-//  Created by Derrick Park on 2022-08-09.
+//  Created by Yusuke K on 2022-08-09.
 //
 
 import Foundation
 
-func town() {
-  
+func bridge() {
+    let islandMap: [[Int]] = island()
+    
+    
+    
+    
+}
+
+func island() -> [[Int]] {
   struct Square {
     let x: Int
     let y: Int
@@ -20,10 +27,10 @@ func town() {
   
   let n = Int(readLine()!)!
   var groupMap = [[Int]](repeating: [Int](repeating: 0, count: n), count: n)
-  var answer = [Int](repeating: 0, count: 25 * 25)
   
   for _ in 0..<n {
-    let row = readLine()!.map { Int(String($0))! }
+    let line = readLine()!.split(separator: " ")
+    let row = line.map{ Int($0)!}
     townMap.append(row)
   }
   
@@ -31,7 +38,6 @@ func town() {
     let q = Queue<Square>()
     q.enqueue(item: Square(x: x, y: y))
     groupMap[x][y] = id
-    answer[id] += 1
     
     while !q.isEmpty() {
       let sq = q.dequeue()!
@@ -44,7 +50,6 @@ func town() {
           if townMap[nx][ny] == 1 && groupMap[nx][ny] == 0 {
             q.enqueue(item: Square(x: nx, y: ny))
             groupMap[nx][ny] = id
-            answer[id] += 1
           }
         }
       }
@@ -60,18 +65,43 @@ func town() {
       }
     }
   }
-  print(id)
-  answer = Array(answer[1...id])
-  answer.sort()
-  for i in 0..<id {
-    print(answer[i])
+  
+  print("islands")
+  for row in groupMap {
+    print(row)
   }
+
+  return groupMap
 }
-//7
-//0110100
-//0110101
-//1110101
-//0000111
-//0100000
-//0111110
-//0111000
+
+
+//Sample Input1
+//10
+//1 1 1 0 0 0 0 1 1 1
+//1 1 1 1 0 0 0 0 1 1
+//1 0 1 1 0 0 0 0 1 1
+//0 0 1 1 1 0 0 0 0 1
+//0 0 0 1 0 0 0 0 0 1
+//0 0 0 0 0 0 0 0 0 1
+//0 0 0 0 0 0 0 0 0 0
+//0 0 0 0 1 1 0 0 0 0
+//0 0 0 0 1 1 1 0 0 0
+//0 0 0 0 0 0 0 0 0 0
+//Sample Output1
+//3
+//
+//Sample Input2
+//10
+//1 1 1 0 0 0 0 1 1 1
+//1 1 1 1 0 0 0 0 1 1
+//1 0 1 1 0 0 0 0 1 1
+//0 0 1 1 1 0 0 0 0 1
+//0 0 0 1 0 0 0 0 0 1
+//0 0 0 0 0 0 1 0 0 1
+//0 0 0 0 0 0 1 0 0 0
+//0 0 0 0 1 1 1 0 0 0
+//0 0 0 0 1 1 1 0 0 0
+//0 0 0 0 0 0 0 0 0 0
+//Sample Output2
+//2
+
