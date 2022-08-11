@@ -7,7 +7,7 @@
 
 import Foundation
 
-//http://leetcode.com/problems/course-schedule/#.YvSM5Q7cl58.twitter
+//https://leetcode.com/submissions/detail/770785199/
 
 func canFinish(_ numCourses: Int, _ prerequisites: [[Int]]) -> Bool {
     if prerequisites == [] { return true }

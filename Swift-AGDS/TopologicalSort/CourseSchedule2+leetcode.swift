@@ -7,7 +7,7 @@
 
 import Foundation
 
-//http://leetcode.com/problems/course-schedule-ii/#.YvSPC0DGo-k.twitter
+//https://leetcode.com/submissions/detail/770792129/
 
 func findOrder(_ numCourses: Int, _ prerequisites: [[Int]]) -> [Int] {
     if prerequisites == [] {
