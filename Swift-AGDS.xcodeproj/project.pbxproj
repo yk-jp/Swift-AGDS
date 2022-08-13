@@ -27,6 +27,7 @@
 		F2976F4C2895F0C3000FAE7A /* Diameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2976F4B2895F0C3000FAE7A /* Diameter.swift */; };
 		F2B36CB2289C344A006A403D /* SushiReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B36CB1289C344A006A403D /* SushiReview.swift */; };
 		F2BFEC1C28A1802A00300AB2 /* Maze.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BFEC1B28A1802900300AB2 /* Maze.swift */; };
+		F2D254AF28A75A57005B595A /* TwoCityScheduling.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D254AE28A75A57005B595A /* TwoCityScheduling.swift */; };
 		F2D41C5928A4C43300C288C0 /* CourseSchedule+leetcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D41C5828A4C43300C288C0 /* CourseSchedule+leetcode.swift */; };
 		F2D41C5B28A4C67E00C288C0 /* CourseSchedule2+leetcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D41C5A28A4C67E00C288C0 /* CourseSchedule2+leetcode.swift */; };
 		F2F38B3A28A30E4C00572B5F /* TomatoFarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F38B3928A30E4C00572B5F /* TomatoFarm.swift */; };
@@ -73,6 +74,7 @@
 		F2BFEC1828A1774700300AB2 /* Town.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Town.swift; sourceTree = "<group>"; };
 		F2BFEC1B28A1802900300AB2 /* Maze.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Maze.swift; path = ../../Maze.swift; sourceTree = "<group>"; };
 		F2BFEC1D28A1802B00300AB2 /* Maze.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maze.swift; sourceTree = "<group>"; };
+		F2D254AE28A75A57005B595A /* TwoCityScheduling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoCityScheduling.swift; sourceTree = "<group>"; };
 		F2D41C5828A4C43300C288C0 /* CourseSchedule+leetcode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CourseSchedule+leetcode.swift"; sourceTree = "<group>"; };
 		F2D41C5A28A4C67E00C288C0 /* CourseSchedule2+leetcode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CourseSchedule2+leetcode.swift"; sourceTree = "<group>"; };
 		F2F38B3928A30E4C00572B5F /* TomatoFarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TomatoFarm.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 		F24B4E72287C9D6700F88C3C /* Swift-AGDS */ = {
 			isa = PBXGroup;
 			children = (
+				F2D254AD28A75A3A005B595A /* GreedyAlgorithm */,
 				F2D41C5728A4C40600C288C0 /* TopologicalSort */,
 				F2BFEC1728A1773E00300AB2 /* FloodFill */,
 				F2976F1F2895CA6A000FAE7A /* Tree */,
@@ -217,6 +220,14 @@
 				F2F38B3B28A3750900572B5F /* Bridges.swift */,
 			);
 			path = FloodFill;
+			sourceTree = "<group>";
+		};
+		F2D254AD28A75A3A005B595A /* GreedyAlgorithm */ = {
+			isa = PBXGroup;
+			children = (
+				F2D254AE28A75A57005B595A /* TwoCityScheduling.swift */,
+			);
+			path = GreedyAlgorithm;
 			sourceTree = "<group>";
 		};
 		F2D41C5728A4C40600C288C0 /* TopologicalSort */ = {
@@ -375,6 +386,7 @@
 			files = (
 				F2523D2E2885BDDE0042B63D /* Searching.swift in Sources */,
 				F2071F42287F2F7300CBB1D2 /* ExaustiveSearch.swift in Sources */,
+				F2D254AF28A75A57005B595A /* TwoCityScheduling.swift in Sources */,
 				F24B4E7C287C9D9D00F88C3C /* Recursion.swift in Sources */,
 				F2975514289055B5001D510A /* String+DPStringTool.swift in Sources */,
 				F22C953A289B182200E4F32C /* LCA.swift in Sources */,
