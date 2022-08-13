@@ -42,4 +42,7 @@ import Foundation
 //LCASolution()
 //sushiSolution()
 //tomatoFarm()
-bridge()
+//bridge()
+
+print(canAttendMeetings([[0, 30], [5, 10], [15, 20]]))
+print(canAttendMeetings([[7, 10], [2, 4]]))
