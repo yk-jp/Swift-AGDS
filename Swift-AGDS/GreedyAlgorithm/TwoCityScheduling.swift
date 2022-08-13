@@ -7,6 +7,8 @@
 
 import Foundation
 
+//https://leetcode.com/submissions/detail/772345032/
+
 func twoCitySchedCost(_ costs: [[Int]]) -> Int {
     var diffArr :[[Int]] = [] // [idx, diff ]
     
