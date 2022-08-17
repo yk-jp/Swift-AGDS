@@ -71,15 +71,17 @@ public struct UF {
     ///   - q: the other element
     public mutating func union(_ p: Int, _ q: Int) {
         // TODO
-        if p == q { return }
+        let i = find(p)
+        let j = find(q)
+        if i == j { return }
         
-        if self.size[p] < self.size[q] {
-            self.parent[p] = q
-            self.size[q] += self.size[p]
+        if self.size[i] < self.size[j] {
+            self.parent[i] = j
+            self.size[j] += self.size[i]
             return
         }
         
-        self.parent[q] = p
-        self.size[p] += self.size[q]
+        self.parent[j] = i
+        self.size[i] += self.size[j]
     }
 }
