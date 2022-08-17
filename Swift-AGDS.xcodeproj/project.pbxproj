@@ -29,7 +29,7 @@
 		F2976F4C2895F0C3000FAE7A /* Diameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2976F4B2895F0C3000FAE7A /* Diameter.swift */; };
 		F2B36CB2289C344A006A403D /* SushiReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B36CB1289C344A006A403D /* SushiReview.swift */; };
 		F2BFEC1C28A1802A00300AB2 /* Maze.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BFEC1B28A1802900300AB2 /* Maze.swift */; };
-		F2D1538928AC907D00B66601 /* UF.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D1538828AC907D00B66601 /* UF.swift */; };
+		F2C2AEBA28ACDEE2007C3C48 /* UF.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C2AEB928ACDEE2007C3C48 /* UF.swift */; };
 		F2D254AF28A75A57005B595A /* TwoCityScheduling.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D254AE28A75A57005B595A /* TwoCityScheduling.swift */; };
 		F2D254B128A77028005B595A /* MeetingRooms.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D254B028A77028005B595A /* MeetingRooms.swift */; };
 		F2D41C5928A4C43300C288C0 /* CourseSchedule+leetcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D41C5828A4C43300C288C0 /* CourseSchedule+leetcode.swift */; };
@@ -80,7 +80,7 @@
 		F2BFEC1828A1774700300AB2 /* Town.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Town.swift; sourceTree = "<group>"; };
 		F2BFEC1B28A1802900300AB2 /* Maze.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Maze.swift; path = ../../Maze.swift; sourceTree = "<group>"; };
 		F2BFEC1D28A1802B00300AB2 /* Maze.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maze.swift; sourceTree = "<group>"; };
-		F2D1538828AC907D00B66601 /* UF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UF.swift; path = ../../../../Downloads/UF.swift; sourceTree = "<group>"; };
+		F2C2AEB928ACDEE2007C3C48 /* UF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UF.swift; sourceTree = "<group>"; };
 		F2D254AE28A75A57005B595A /* TwoCityScheduling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoCityScheduling.swift; sourceTree = "<group>"; };
 		F2D254B028A77028005B595A /* MeetingRooms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingRooms.swift; sourceTree = "<group>"; };
 		F2D41C5828A4C43300C288C0 /* CourseSchedule+leetcode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CourseSchedule+leetcode.swift"; sourceTree = "<group>"; };
@@ -234,7 +234,7 @@
 		F2D1538728AC906900B66601 /* UnionFind */ = {
 			isa = PBXGroup;
 			children = (
-				F2D1538828AC907D00B66601 /* UF.swift */,
+				F2C2AEB928ACDEE2007C3C48 /* UF.swift */,
 			);
 			path = UnionFind;
 			sourceTree = "<group>";
@@ -412,6 +412,7 @@
 				F22C953A289B182200E4F32C /* LCA.swift in Sources */,
 				F297551028904C2B001D510A /* AdjacencyMatrix.swift in Sources */,
 				F28EF95C2886712A005E6965 /* Sorting.swift in Sources */,
+				F2C2AEBA28ACDEE2007C3C48 /* UF.swift in Sources */,
 				F2F38B3A28A30E4C00572B5F /* TomatoFarm.swift in Sources */,
 				F242D62D28AB655B00FE09D1 /* PartitionLabels.swift in Sources */,
 				F2071F45287F420900CBB1D2 /* BackTracking.swift in Sources */,
@@ -422,7 +423,6 @@
 				F260F69E2888BF7200D286FB /* Bag.swift in Sources */,
 				F2B36CB2289C344A006A403D /* SushiReview.swift in Sources */,
 				F26F68F82890DE760038EB7B /* Cyclic Permutation.swift in Sources */,
-				F2D1538928AC907D00B66601 /* UF.swift in Sources */,
 				F29755122890530B001D510A /* DFS.swift in Sources */,
 				F2BFEC1C28A1802A00300AB2 /* Maze.swift in Sources */,
 				F26F68FA2890F6860038EB7B /* RepeatingSequence.swift in Sources */,
