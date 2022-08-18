@@ -22,6 +22,7 @@
 		F26F68F82890DE760038EB7B /* Cyclic Permutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26F68F72890DE760038EB7B /* Cyclic Permutation.swift */; };
 		F26F68FA2890F6860038EB7B /* RepeatingSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26F68F92890F6860038EB7B /* RepeatingSequence.swift */; };
 		F28A4DD328AD86DA00AFCB54 /* NumberOfProvinces.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28A4DD228AD86DA00AFCB54 /* NumberOfProvinces.swift */; };
+		F28A4DD528ADF84100AFCB54 /* LongestConsecutiveSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28A4DD428ADF84100AFCB54 /* LongestConsecutiveSequence.swift */; };
 		F28EF95C2886712A005E6965 /* Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28EF95B2886712A005E6965 /* Sorting.swift */; };
 		F297551028904C2B001D510A /* AdjacencyMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = F297550F28904C2B001D510A /* AdjacencyMatrix.swift */; };
 		F29755122890530B001D510A /* DFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29755112890530B001D510A /* DFS.swift */; };
@@ -69,6 +70,7 @@
 		F26F68F72890DE760038EB7B /* Cyclic Permutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cyclic Permutation.swift"; sourceTree = "<group>"; };
 		F26F68F92890F6860038EB7B /* RepeatingSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatingSequence.swift; sourceTree = "<group>"; };
 		F28A4DD228AD86DA00AFCB54 /* NumberOfProvinces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfProvinces.swift; sourceTree = "<group>"; };
+		F28A4DD428ADF84100AFCB54 /* LongestConsecutiveSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestConsecutiveSequence.swift; sourceTree = "<group>"; };
 		F28EF95B2886712A005E6965 /* Sorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sorting.swift; sourceTree = "<group>"; };
 		F297550F28904C2B001D510A /* AdjacencyMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjacencyMatrix.swift; sourceTree = "<group>"; };
 		F29755112890530B001D510A /* DFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DFS.swift; sourceTree = "<group>"; };
@@ -238,6 +240,7 @@
 			children = (
 				F2C2AEB928ACDEE2007C3C48 /* UF.swift */,
 				F28A4DD228AD86DA00AFCB54 /* NumberOfProvinces.swift */,
+				F28A4DD428ADF84100AFCB54 /* LongestConsecutiveSequence.swift */,
 			);
 			path = UnionFind;
 			sourceTree = "<group>";
@@ -437,6 +440,7 @@
 				F242D62B28AB026300FE09D1 /* GasStation.swift in Sources */,
 				F2976F212895CA85000FAE7A /* WhosMyParent.swift in Sources */,
 				F24B4E74287C9D6700F88C3C /* main.swift in Sources */,
+				F28A4DD528ADF84100AFCB54 /* LongestConsecutiveSequence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

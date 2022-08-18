@@ -19,6 +19,29 @@ import Foundation
 /// (in the worst case) and **count** takes constant time.
 /// Moreover, the amortized time per **union**, **find**, and **connected** operation
 /// has inverse Ackermann complexity (which is practically < 5 for 2^(2^(2^(2^16))) - undefined number).
+///
+///
+func findRedundantConnection(_ edges: [[Int]]) -> [Int] {
+      var uf = UF(edges.count)
+      
+      for edge in edges {
+           let a = edge[0]
+           let b = edge[1]
+           uf.union(a,b)
+      }
+       
+      print(uf)
+      
+      // var parentSet = Set<Int>()
+      // let parent = uf.getParent()
+      
+//        for p in parent {
+//          parentSet.insert(uf.find(p))
+//        }
+       
+      return [1,1]
+   }
+
 public struct UF {
     /// parent[i] = parent of i
     private var parent: [Int]
