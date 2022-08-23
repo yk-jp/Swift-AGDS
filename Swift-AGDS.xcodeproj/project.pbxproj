@@ -33,6 +33,7 @@
 		F2976F212895CA85000FAE7A /* WhosMyParent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2976F202895CA85000FAE7A /* WhosMyParent.swift */; };
 		F2976F4C2895F0C3000FAE7A /* Diameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2976F4B2895F0C3000FAE7A /* Diameter.swift */; };
 		F2B36CB2289C344A006A403D /* SushiReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B36CB1289C344A006A403D /* SushiReview.swift */; };
+		F2BF280728B48E3300AF4EA5 /* NetworkDelayTime+leetcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BF280628B48E3300AF4EA5 /* NetworkDelayTime+leetcode.swift */; };
 		F2BFEC1C28A1802A00300AB2 /* Maze.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BFEC1B28A1802900300AB2 /* Maze.swift */; };
 		F2C2AEBA28ACDEE2007C3C48 /* UF.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C2AEB928ACDEE2007C3C48 /* UF.swift */; };
 		F2D254AF28A75A57005B595A /* TwoCityScheduling.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D254AE28A75A57005B595A /* TwoCityScheduling.swift */; };
@@ -87,6 +88,7 @@
 		F2976F3C2895E01D000FAE7A /* WhosParents.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhosParents.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2976F4B2895F0C3000FAE7A /* Diameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diameter.swift; sourceTree = "<group>"; };
 		F2B36CB1289C344A006A403D /* SushiReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiReview.swift; sourceTree = "<group>"; };
+		F2BF280628B48E3300AF4EA5 /* NetworkDelayTime+leetcode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NetworkDelayTime+leetcode.swift"; sourceTree = "<group>"; };
 		F2BFEC1828A1774700300AB2 /* Town.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Town.swift; sourceTree = "<group>"; };
 		F2BFEC1B28A1802900300AB2 /* Maze.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Maze.swift; path = ../../Maze.swift; sourceTree = "<group>"; };
 		F2BFEC1D28A1802B00300AB2 /* Maze.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maze.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 		F24B4E72287C9D6700F88C3C /* Swift-AGDS */ = {
 			isa = PBXGroup;
 			children = (
+				F2BF280528B48E1E00AF4EA5 /* ShortestPaths */,
 				F2D1538728AC906900B66601 /* UnionFind */,
 				F2D254AD28A75A3A005B595A /* GreedyAlgorithm */,
 				F2D41C5728A4C40600C288C0 /* TopologicalSort */,
@@ -229,6 +232,14 @@
 				F2B36CB1289C344A006A403D /* SushiReview.swift */,
 			);
 			path = Tree;
+			sourceTree = "<group>";
+		};
+		F2BF280528B48E1E00AF4EA5 /* ShortestPaths */ = {
+			isa = PBXGroup;
+			children = (
+				F2BF280628B48E3300AF4EA5 /* NetworkDelayTime+leetcode.swift */,
+			);
+			path = ShortestPaths;
 			sourceTree = "<group>";
 		};
 		F2BFEC1728A1773E00300AB2 /* FloodFill */ = {
@@ -425,6 +436,7 @@
 				F24B4E7C287C9D9D00F88C3C /* Recursion.swift in Sources */,
 				F2975514289055B5001D510A /* String+DPStringTool.swift in Sources */,
 				F22C953A289B182200E4F32C /* LCA.swift in Sources */,
+				F2BF280728B48E3300AF4EA5 /* NetworkDelayTime+leetcode.swift in Sources */,
 				F297551028904C2B001D510A /* AdjacencyMatrix.swift in Sources */,
 				F28EF95C2886712A005E6965 /* Sorting.swift in Sources */,
 				F21E5AA028B010E200B230DB /* IndexPriorityQueue.swift in Sources */,
