@@ -12,6 +12,7 @@
 		F21E5A9A28B0082300B230DB /* MinimumCostFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21E5A9928B0082300B230DB /* MinimumCostFlow.swift */; };
 		F21E5AA028B010E200B230DB /* IndexPriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21E5A9F28B010E200B230DB /* IndexPriorityQueue.swift */; };
 		F22C953A289B182200E4F32C /* LCA.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22C9539289B182200E4F32C /* LCA.swift */; };
+		F236B9D928B5C7B200EFEEB5 /* PathWithMaximumProbability+leetcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F236B9D828B5C7B100EFEEB5 /* PathWithMaximumProbability+leetcode.swift */; };
 		F242D62B28AB026300FE09D1 /* GasStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F242D62A28AB026300FE09D1 /* GasStation.swift */; };
 		F242D62D28AB655B00FE09D1 /* PartitionLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F242D62C28AB655B00FE09D1 /* PartitionLabels.swift */; };
 		F24B4E74287C9D6700F88C3C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24B4E73287C9D6700F88C3C /* main.swift */; };
@@ -63,6 +64,7 @@
 		F21E5A9928B0082300B230DB /* MinimumCostFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumCostFlow.swift; sourceTree = "<group>"; };
 		F21E5A9F28B010E200B230DB /* IndexPriorityQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexPriorityQueue.swift; sourceTree = "<group>"; };
 		F22C9539289B182200E4F32C /* LCA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCA.swift; sourceTree = "<group>"; };
+		F236B9D828B5C7B100EFEEB5 /* PathWithMaximumProbability+leetcode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PathWithMaximumProbability+leetcode.swift"; sourceTree = "<group>"; };
 		F242D62A28AB026300FE09D1 /* GasStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasStation.swift; sourceTree = "<group>"; };
 		F242D62C28AB655B00FE09D1 /* PartitionLabels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartitionLabels.swift; sourceTree = "<group>"; };
 		F24B4E70287C9D6700F88C3C /* Swift-AGDS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Swift-AGDS"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -241,6 +243,7 @@
 			children = (
 				F2BF280628B48E3300AF4EA5 /* NetworkDelayTime+leetcode.swift */,
 				F2BF280828B4C06400AF4EA5 /* CheapestFlightsWithinKStops+leetcode.swift */,
+				F236B9D828B5C7B100EFEEB5 /* PathWithMaximumProbability+leetcode.swift */,
 			);
 			path = ShortestPaths;
 			sourceTree = "<group>";
@@ -447,6 +450,7 @@
 				F28A4DD728AE03E100AFCB54 /* RedundantConnection.swift in Sources */,
 				F21E5A9A28B0082300B230DB /* MinimumCostFlow.swift in Sources */,
 				F2F38B3A28A30E4C00572B5F /* TomatoFarm.swift in Sources */,
+				F236B9D928B5C7B200EFEEB5 /* PathWithMaximumProbability+leetcode.swift in Sources */,
 				F242D62D28AB655B00FE09D1 /* PartitionLabels.swift in Sources */,
 				F2071F45287F420900CBB1D2 /* BackTracking.swift in Sources */,
 				F2D254B128A77028005B595A /* MeetingRooms.swift in Sources */,
